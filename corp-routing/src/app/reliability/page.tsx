@@ -1,3 +1,3 @@
-export default function Reliability() {
+export default function ReliabilityPage() {
   return <div>Reliability</div>;
 }
