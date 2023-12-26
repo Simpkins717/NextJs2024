@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Header() {
   return (
-    <div className='border-2 border-white py-4 flex justify-around '>
+    <div className='border-2 border-white py-4 flex justify-around z-10'>
       <div>
         <Link href='/'>Corp in the Clouds</Link>
       </div>
