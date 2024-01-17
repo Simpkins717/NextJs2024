@@ -9,7 +9,7 @@ export default async function TopicList() {
   const renderedTopics = topics.map((topic) => {
     return (
       <div key={topic.id}>
-        <Link href={paths.topicShowPath(topic.slug)}>
+        <Link href={paths.topicShow(topic.slug)}>
           <Chip color='warning' variant='shadow'>
             {topic.slug}
           </Chip>
